@@ -143,7 +143,7 @@ function App() {
           <>
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Every tool you need to work with PDFs in one place ok we can make it longer if you want.
+                Every tool you need to work with PDFs in one place.
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Every tool you need to use PDFs, All are 100% FREE and easy to use! 
