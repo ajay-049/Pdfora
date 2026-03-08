@@ -1,0 +1,141 @@
+{
+  "common": {
+    "madeInIndia": "Made in India",
+    "autoDelete": "Files are automatically deleted after 30 minutes",
+    "processing": "Processing...",
+    "complete": "Complete!",
+    "downloading": "Downloading...",
+    "error": "An error occurred",
+    "back": "Back to tools",
+    "comingSoon": "Coming soon!"
+  },
+  "tools": {
+    "imageToPDF": {
+      "title": "Image to PDF",
+      "description": "Transform your images, photos, into polished, high-quality PDFs."
+    },
+    "pngToPDF": {
+      "title": "PNG to PDF",
+      "description": "Convert PNG images to PDF with transparency support and high quality."
+    },
+    "jpgToPDF": {
+      "title": "JPG to PDF", 
+      "description": "Convert JPG/JPEG photos to PDF documents with optimal quality."
+    },
+    "heicToPDF": {
+      "title": "HEIC to PDF",
+      "description": "Convert iPhone HEIC photos to PDF documents easily."
+    },
+    "mergePDF": {
+      "title": "Merge PDFs",
+      "description": "Merge multiple PDFs into a single, streamlined document."
+    },
+    "splitPDF": {
+      "title": "Split PDF",
+      "description": "Split PDF documents into separate pages or custom page ranges."
+    },
+    "compressPDF": {
+      "title": "Compress PDF",
+      "description": "Reduce PDF file size while maintaining quality. Get your files under 1MB for PAN card, passport, and job applications.",
+      "panCard": "Perfect for PAN card - Under 1MB!"
+    },
+    "pdfToWord": {
+      "title": "PDF to Word",
+      "description": "Convert PDF files to editable Word documents. Preserve formatting, images, and text layout for easy editing.",
+      "comingSoon": "Coming Soon!"
+    }
+  },
+  "features": {
+    "secure": {
+      "title": "100% Secure",
+      "description": "Your files are encrypted in transit and automatically deleted after processing"
+    },
+    "fast": {
+      "title": "Lightning Fast",
+      "description": "Advanced algorithms ensure quick processing of your PDF files"
+    },
+    "private": {
+      "title": "Private & Confidential",
+      "description": "We never store or share your files - your data stays yours"
+    },
+    "autoDelete": {
+      "title": "Auto File Deletion",
+      "description": "All uploaded files are automatically deleted after 30 minutes"
+    },
+    "cloud": {
+      "title": "No Installation Needed",
+      "description": "Work with PDFs directly in your browser - no software required"
+    }
+  },
+  "upload": {
+    "dragDrop": "Drag & drop files here",
+    "dropping": "Drop your files here",
+    "or": "or",
+    "selectPDF": "Select PDF files",
+    "selectImages": "Select images",
+    "supported": "files supported"
+  },
+  "settings": {
+    "title": "PDF Settings",
+    "margin": "Page Margin",
+    "noMargin": "No margin",
+    "smallMargin": "Small margin",
+    "orientation": "Page Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "pageSize": "Page Size"
+  },
+  "actions": {
+    "mergePDF": "Merge PDFs",
+    "splitPDF": "Split PDF",
+    "convertToPDF": "Convert to PDF",
+    "shareWhatsApp": "Share via WhatsApp",
+    "download": "Download",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "remove": "Remove"
+  },
+  "compression": {
+    "settings": "Compression Settings",
+    "quality": "Compression Quality",
+    "low": "Maximum Compression",
+    "medium": "Balanced",
+    "high": "High Quality",
+    "targetSize": "Target Size (MB)",
+    "targetSizeHelp": "The tool will try to achieve this file size",
+    "fastCompression": "Fast Compression",
+    "fastCompressionDesc": "Advanced algorithms compress your PDFs in seconds while preserving quality.",
+    "secure": "100% Secure",
+    "secureDesc": "Your files are processed locally and automatically deleted after 30 minutes.",
+    "panCardReady": "PAN Card Ready",
+    "panCardReadyDesc": "Optimized for Indian document requirements. Get files under 1MB easily.",
+    "compressionSettings": "Compression Settings",
+    "compressionQuality": "Compression Quality",
+    "highQuality": "High Quality",
+    "highQualityDesc": "Best quality, moderate compression",
+    "highQualityReduction": "20-40%",
+    "highQualityUse": "Professional documents",
+    "balanced": "Balanced",
+    "balancedDesc": "Good balance of quality and size",
+    "balancedReduction": "40-60%",
+    "balancedUse": "General use, email attachments",
+    "maxCompression": "Maximum Compression",
+    "maxCompressionDesc": "Smallest file size, lower quality",
+    "maxCompressionReduction": "60-80%",
+    "maxCompressionUse": "PAN card, passport applications",
+    "targetFileSize": "Target File Size (Optional)",
+    "ultraCompact": "Ultra compact",
+    "perfectForPan": "Perfect for PAN card",
+    "goodForApps": "Good for most applications",
+    "highQualityDocs": "High quality documents",
+    "targetSizeNote": "The tool will try to achieve the target size while maintaining quality",
+    "advancedOptions": "Advanced Options",
+    "removeMetadata": "Remove metadata (author, creation date, etc.)",
+    "optimizeImages": "Optimize embedded images",
+    "compressionTips": "Compression Tips",
+    "tip1": "• For PAN card applications, use \"Maximum Compression\" with 1MB target size",
+    "tip2": "• For professional documents, use \"High Quality\" to maintain readability",
+    "tip3": "• PDFs with many images compress better than text-heavy documents",
+    "tip4": "• Already compressed PDFs may not reduce significantly in size"
+  }
+}
