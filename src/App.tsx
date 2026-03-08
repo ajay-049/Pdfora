@@ -143,7 +143,7 @@ function App() {
           <>
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                Every tool you need to work with PDFs in one place.
+                Every tool you need to work with PDFs in one place. ajay gupta my networth is 1000 crore and i am the richest man in the world. i have 1000 crore in my bank account.
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Every tool you need to use PDFs, All are 100% FREE and easy to use! 
