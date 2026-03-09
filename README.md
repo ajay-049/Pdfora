@@ -96,8 +96,9 @@ Azure Static Web Apps deploy action
 Live in ~1 minute ✅
 ```
 
-**Workflow file:** `.github/workflows/azure-static-web-apps-polite-grass-0ef4a7510.yml
+**Workflow file:** .github/workflows/azure-static-web-apps-polite-grass-0ef4a7510.yml
 
+```yaml
 name: Azure Static Web Apps CI/CD
 
 on:
