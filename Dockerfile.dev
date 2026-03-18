@@ -1,0 +1,20 @@
+# Development image for local practice.
+# This image keeps Node available because Vite's dev server runs with Node,
+# unlike production where only static files are served.
+FROM node:20-alpine
+
+# Use a fixed working directory inside the container.
+WORKDIR /app
+
+# Copy package metadata first to cache dependency installation.
+COPY package*.json ./
+
+# Install dependencies once into the image.
+RUN npm ci
+
+# Expose the Vite development server port.
+EXPOSE 5173
+
+# Start Vite in a way that accepts traffic from outside the container.
+# Without --host 0.0.0.0, the dev server would bind only inside the container.
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]
