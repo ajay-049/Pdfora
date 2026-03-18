@@ -33,14 +33,14 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_TOKEN }}
+          username: ${{ secrets.DOCSEC01 }}
+          password: ${{ secrets.DOCSEC02 }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/pdfora:latest .
+        run: docker build -t ${{ secrets.DOCSEC01 }}/pdfora:latest .
 
       - name: Push to Docker Hub
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/pdfora:latest
+        run: docker push ${{ secrets.DOCSEC01 }}/pdfora:latest
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
